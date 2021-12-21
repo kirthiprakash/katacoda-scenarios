@@ -1,15 +1,16 @@
 
 {
     "type": "challenge@0.8",
-    "title": "Challenge Template",
-    "description": "Basic template for a challenge",
+    "title": "Linux Command line tool challenge",
+    "description":"A Katakoda challenge to test basic Linux commands",
     "difficulty": "Beginner",
     "time": "15 minutes",
     "details": {
         "steps": [
             {
-                "title": "Log search",
-                "text": "1_task.md"
+                "title": "Search, Extract and Operate",
+                "text": "1_task.md",
+                "verify": "1_verify.sh"
             }
         ],
         "intro": {
@@ -25,7 +26,7 @@
         }
     },
     "environment": {
-        "uilayout": "editor-terminal",
+        "uilayout": "terminal",
         "hideHiddenFiles": true
     },
     "backend": {
