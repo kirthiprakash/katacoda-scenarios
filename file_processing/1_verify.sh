@@ -2,3 +2,4 @@ filenames=("1c7c7277f301486f3ea9916558b30873eb7e237817d464c8d89694aaf427bac3.txt
 printf "%s \n" "${filenames[@]}" | xargs -I {} bash -c 'if [ ! -f {} ]; then exit 1; fi'
 file_count=$(ls -1q *.txt | wc -l)
 if [[ ! "$file_count" -eq 18 ]]; then exit 1; fi
+exit 0
