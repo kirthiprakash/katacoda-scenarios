@@ -1,4 +1,4 @@
 - Search for URL pattens in the sample.log file
-- Extract the value from the query parameted "code" from each URL
-- Remove any duplicate "code" value
+- Extract the value from the query parameter "code" from each URL
+- Remove any duplicate "code" values
 - For each value, create a empty file with name <value>.txt
